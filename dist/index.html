@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
-   
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css" integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
     <!--fuente russo -->
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600&family=Russo+One&display=swap" rel="stylesheet">
     
@@ -11,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@600&family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" type="text/css" href="css/default.css">
+
+    <!--=== TEMA-COLOR AZUL ===-->
+    <link id="theme-style" rel="stylesheet" type="text/css" href="">
     <title> Karen Marlen </title>
 
 </head>
@@ -39,7 +43,7 @@
                  </div>
 
                  <ul id="navigation">
-                     <li><a href="#"> Contacto </a></li>
+                     <li><a href="mailto:karenzhec@gmail.com"> Contacto </a></li>
 
                  </ul>
                </div>  
@@ -49,16 +53,16 @@
                    <h5 style="text-align: center;line-height: 0;">Tema Personalizado</h5>
 
                    <div id="theme-options-wrapper">
-                      <div id="light-mode" class="theme-dot"></div>
+                      <div data-mode="light" id="light-mode" class="theme-dot"></div>
 
-                      <div id="blue-mode" class="theme-dot"></div>
+                      <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
 
-                      <div id="green-mode" class="theme-dot"></div>
+                      <div data-mode="green" id="green-mode" class="theme-dot"></div>
 
-                      <div id="purple-mode" class="theme-dot"></div>
+                      <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
                    </div>
 
-                   <p id="settings-note">Configuración del tema will be saved for <br> your next vist</p>
+                   <p id="settings-note">Click para configurar tema <br> personalizado</p>
                 </div>
 
                <div class="right-column">
@@ -68,8 +72,8 @@
 
                             <div id="corner-tl" class="corner"></div>
                             <div id="corner-tr" class="corner"></div>
-                            <h3> What I Do</h3>
-                            <p> I was a lead developer in a past life, now I enjoy teaching courses.</p>
+                            <h3> Full-Stack Web Developer </h3>
+                            <p> JavaScript, Vue.js, Nuxt.js, Node.js </p>
                             <div id="corner-br" class="corner"></div>
                             <div id="corner-bl" class="corner"></div>
                         
@@ -87,43 +91,62 @@
         <div class="main-container">
             <div class="about-wrapper">
                 <div class="about-me">
-                    <h4> More abut me </h4>
+                    <h4> Más sobre mí </h4>
 
-                    <p> I build new projects just to tickle my brain and love teaching others how they're made.</p>
-
-                    <p> While I keep busy teaching courses, I still take interviews in search of a great team & projects that interest se.</p>
-
+                    <p> Soy desarrolladora full-stack freelance. Principalmente trabajo con JavaScript (Node.js y Vue.js), pero también tengo experiencia con Ruby on Rails, Python y otros.
+                        Si está interesado o tiene alguna duda sobre desarrollo web, no dude en <a target="_blank" href="mailto:karenzhec@gmail.com">contactarme.</a></p>
                 
 
                     <hr>
 
-                    <h4> TOP EXPERIENCIA </h4>
-                    <p> Fulllstack developer with primary focus on Django + React: <a target="_blank" href="#"> Descargar </a></p>
+                    <h4> EXPERIENCIA </h4>
+                    <p>  Conocimientos en desarrollo Front-End y Back-End.<a target="_blank" href="#"> Descargar CV </a></p>
 
                     <div id="skills">
                       <ul>
                          <li>Python</li>
-                         <li>Django</li>
+                         <li>HTML/CSS</li>
                          <li>JavaScripts</li>
                          <li>React</li>
-                         <li>Postgres</li>
+                         <li>MongoDB</li>
                       </ul>
 
                       <ul>
-                         <li>Google Maps Api</li>
-                         <li>JS Charts</li>
-                         <li>AMS (RDS/SJ)</li>
-                         <li>Heraku</li>
-                         <li>HTML/CSS</li>
+                         <li>Ruby</li>
+                         <li>Vue.js</li>
+                         <li>Node.js</li>
+                         <li>Netlify</li>
+                         <li>Heroku</li>
                       </ul>
                    </div>
+
                 </div>
 
                 <div class="social-links">
-                    <img id="social_img" src="img/primerimagen.png">
-                    <h3>Find me on Twitter & Github</h3>
-                    <a target="_blank" href="#">Twitter</a> 
-                    <a target="_blank" href="#">Github</a>                   
+                    <h4> Usos </h4>
+                    <p> Una lista resumida de IDEs, navegador, Hosting & Co., etc,. que utilizo.</p>
+
+                    <div id="skills">
+                      <ul>
+                         <li>Editor de Código · VSC</li>
+
+                         <li>Navegador web principal · Google Chrome</li>
+
+                         <li>Navegador secundario · Firefox </li>
+
+                         <li>Alojamiento de sitios front-end · Netlify</li>
+
+                         <li>Backend de alojamiento · Heroku</li>
+
+                         <li>Proveedor de dominio · OnlyDomains</li>
+
+                         <li>Proveedor de correo electrónico · GSuite</li>
+
+                      </ul>
+                   </div>
+                    <h3>Puedes contactarme por Twitter & Gmail</h3>
+                    <a target="_blank" href="">Twitter @krenjs</a> 
+                    <a target="_blank" href="mailto:karenzhec@gmail.com">Gmail @karenzhec</a>           
                 </div>
             </div>
         </div>
@@ -132,15 +155,56 @@
 
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            <h3 style="text-align: center;"> Proyectos </h3>
+            
+            <div class="post-wrapper">
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="img/customer-dash.jpg">
+                        <div class="post-preview">
+                            <h4 class="post-title"> Post Title </h4>
+                            <p class="post-intro"> This is a sentence- Some more text</p>
+                            <a href="#">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="img/ecom.jpg">
+                        <div class="post-preview">
+                            <h4 class="post-title"> Online Store </h4>
+                            <p class="post-intro"> Prototipo front-end de tienda online, desarrollada con HTML & SASS.</p>
+                            <a target="_blank" href="https://karen-marlen.github.io/website_shoes/">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="img/customer-dash.jpg">
+                        <div class="post-preview">
+                            <h4 class="post-title"> Post Title </h4>
+                            <p class="post-intro"> This is a sentence- Some more text</p>
+                            <a href="#">Ver Más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="s2">
         <div class="main-container">
-            Contacto
+            <h3 style="text-align: center;">Contacto</h3>
+                <a id="contact-form" href="mailto:karenzhec@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
         </div>
     </section>
+
+    <script type="text/javascript" src="js/script.js"></script>
     
 </body>
 </html>
