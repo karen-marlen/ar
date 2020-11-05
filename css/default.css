@@ -198,11 +198,11 @@ h6 {font-size: 16px;}
 }
 
 #green-mode {
-    background-color: #78866b;
+    background-color: #212529;
 }
 
 #purple-mode {
-    background-color: #7E4C74;
+    background-color: #46263F;
 }
 
 #settings-note {
@@ -315,17 +315,17 @@ h6 {font-size: 16px;}
 }
 
 .post-preview {
-    background-color: rgb(255, 255, 255); /* declarar otra variable */
+    background-color: var(--previewShadow); /* declarar otra variable */ /* declarada */
     padding: 15px;
 }
 
 .post-title {
-    color: black;
+    color: var(--mainText);
     margin: 0;
 }
 
 .post-intro {
-    color: #4b5156;
+    color: var(--secondaryText);
     font-size: 16px;
 }
 
